@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report a bug or internal error in Magma
+type: "Bug"
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Magma version
+      description: Shown in the startup banner, e.g. V2.28-10
+      placeholder: V2.28-10
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Minimal reproducible example
+      description: |
+        The shortest Magma code that triggers the issue.
+        <br>Tips: use ` ```c++ ` for syntax highlighting, and `%P` on the Magma command line to recover your full session.
+    validations:
+      required: true
+
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Expected and actual behaviour
+      description: What you expected to happen and what actually happened, including the full error output.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Suggestions and additional details
+      description: |
+        Any extra information, such as:
+        - Suggestions: how to fix the problem, including references to papers and algorithms
+        - Random seed: from the startup banner, e.g. [Seed = 1431482434], especially for sporadic bugs
+        - Resources: approximate runtime, memory usage
+        - Operating system: e.g. Ubuntu 24.04, macOS 15
+    validations:
+      required: false

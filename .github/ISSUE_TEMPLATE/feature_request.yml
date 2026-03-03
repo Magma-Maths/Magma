@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest new functionality or improvements to existing algorithms
+type: "Feature"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the desired functionality.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: A motivating example or use case.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Links to relevant mathematical literature, papers, or algorithms, if applicable.
+    validations:
+      required: false

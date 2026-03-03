@@ -1,0 +1,11 @@
+name: Other
+description: Questions, documentation issues, or anything that doesn't fit the other categories
+type: "Task"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of your question or issue.
+    validations:
+      required: true

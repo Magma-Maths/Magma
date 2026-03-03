@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report via email
+    url: mailto:magma-bugs@maths.usyd.edu.au
+    about: If you prefer not to use GitHub, you can report bugs by email.
+  - name: Installation or licensing issues
+    url: mailto:magma@maths.usyd.edu.au
+    about: For installation or licensing issues, please email the Magma Group directly.

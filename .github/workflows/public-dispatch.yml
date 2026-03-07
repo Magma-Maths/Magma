@@ -38,6 +38,7 @@ jobs:
               inputs: {
                 event_name: '${{ github.event_name }}',
                 action: '${{ github.event.action }}',
+                issue_node_id: '${{ github.event.issue.node_id }}',
                 event: JSON.stringify(context.payload)
               }
             });

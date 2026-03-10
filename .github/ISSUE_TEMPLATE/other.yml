@@ -1,7 +1,12 @@
-name: Other
+name: "❓ Other"
 description: Questions, documentation issues, or anything that doesn't fit the other categories
 type: "Task"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        If this form feels cramped, you can [open the full-page version](https://github.com/Magma-Maths/Magma/issues/new?template=other.yml) in a new tab.
+
   - type: textarea
     id: description
     attributes:

@@ -1,7 +1,12 @@
-name: Feature Request
+name: "✨ Feature Request"
 description: Suggest new functionality or improvements to existing algorithms
 type: "Feature"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        If this form feels cramped, you can [open the full-page version](https://github.com/Magma-Maths/Magma/issues/new?template=feature_request.yml) in a new tab.
+
   - type: textarea
     id: description
     attributes:

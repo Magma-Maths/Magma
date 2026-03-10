@@ -1,7 +1,12 @@
-name: Bug Report
+name: "🐛 Bug Report"
 description: Report a bug or internal error in Magma
 type: "Bug"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        If this form feels cramped, you can [open the full-page version](https://github.com/Magma-Maths/Magma/issues/new?template=bug_report.yml) in a new tab.
+
   - type: input
     id: version
     attributes:

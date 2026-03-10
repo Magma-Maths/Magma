@@ -8,12 +8,16 @@ The official issue tracker for the [Magma Computational Algebra System](https://
 
 We really appreciate bug reports and feature requests. Bugs exist because we don't know they're there, and we depend on reports from the Magma community to find and fix them. We promise that any problems you submit will not be ignored.
 
+- [**🐛 Report a Bug**](https://github.com/Magma-Maths/Magma/issues/new?template=bug_report.yml)
+- [**✨ Request a Feature**](https://github.com/Magma-Maths/Magma/issues/new?template=feature_request.yml)
+- [**❓ Other**](https://github.com/Magma-Maths/Magma/issues/new?template=other.yml)
+
 If you prefer not to use GitHub, or have privacy concerns about sharing code publicly, you can report bugs by email at [magma-bugs@maths.usyd.edu.au](mailto:magma-bugs@maths.usyd.edu.au).
 
 ### Before You File an Issue
 
 1. **[Search existing issues](https://github.com/Magma-Maths/Magma/issues?q=is%3Aissue)** to check if your problem has already been reported.
-2. **Verify on the latest version**: confirm the issue still occurs on the most recent [patch release](https://magma.maths.usyd.edu.au/magma/download/). You can use the [online calculator](https://magma.maths.usyd.edu.au/calc/) to quickly check.
+2. **Verify on the latest version** if possible: confirm the issue still occurs on the most recent version. If the bug is simple enough, you can quickly check using the [online calculator](https://magma.maths.usyd.edu.au/calc/).
 3. **Check the [Magma Handbook](https://magma.maths.usyd.edu.au/magma/handbook/)** to make sure the behaviour isn't documented or expected.
 
 ### Providing a Good Bug Report

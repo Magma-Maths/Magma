@@ -37,10 +37,10 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: Suggestions and additional details
+      label: Additional details
       description: |
         Any extra information, such as:
-        - Suggestions: how to fix the problem, including references to papers and algorithms
+        - Anything else that might help us better understand the issue, including references to papers and algorithms
         - Random seed: from the startup banner, e.g. [Seed = 1431482434], especially for sporadic bugs
         - Resources: approximate runtime, memory usage
         - Operating system: e.g. Ubuntu 24.04, macOS 15

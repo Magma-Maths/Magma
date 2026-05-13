@@ -20,7 +20,7 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.LYREBIRD_APP_ID }}
+          client-id: ${{ vars.LYREBIRD_CLIENT_ID }}
           private-key: ${{ secrets.LYREBIRD_APP_PRIVATE_KEY }}
           repositories: ${{ vars.PRIVATE_REPO_NAME }}
           owner: ${{ github.repository_owner }}

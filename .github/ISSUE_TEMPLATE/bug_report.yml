@@ -43,6 +43,6 @@ body:
         - Suggestions: how to fix the problem, including references to papers and algorithms
         - Random seed: from the startup banner, e.g. [Seed = 1431482434], especially for sporadic bugs
         - Resources: approximate runtime, memory usage
-        - Operating system: e.g. Ubuntu 24.04, macOS 15
+        - Operating system and binary: e.g. Ubuntu 24.04, macOS 15, and the output of `GetBinaryVariant();`, e.g. avx2-linux
     validations:
       required: false

@@ -1,9 +1,9 @@
-# Install in the PUBLIC repo at .github/workflows/public-dispatch.yml
+# Install in the PUBLIC repo at .github/workflows/issues-dispatch-public-events-to-private-repo.yml
 #
 # This workflow forwards issue and comment events to the private repo
 # via workflow_dispatch.  No business logic runs here.
 
-name: Dispatch public events to private repo
+name: "Issues: Dispatch public events to private repo"
 
 on:
   issues:
@@ -33,7 +33,7 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: '${{ github.repository_owner }}',
               repo: '${{ vars.PRIVATE_REPO_NAME }}',
-              workflow_id: 'handle-public-event.yml',
+              workflow_id: 'issues-handle-public-event.yml',
               ref: 'main',
               inputs: {
                 event_name: '${{ github.event_name }}',
